@@ -147,3 +147,7 @@ header ul li a {
   list-style: none;
   margin: 0 10px;
 }
+
+.socialMedia li a {
+  color: #000;
+}
