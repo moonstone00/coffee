@@ -1,0 +1,6 @@
+Jadi ada kasus kalau di display nya inline dan kalian ingin membuat content tersebut ke tengah dengan misalnya, 10px auto kalian harus 
+mengubah display nya dulu ke inline-block
+
+
+
+Secara umum, elemen dengan position: relative akan menjadi referensi bagi pergeseran elemen-elemen anaknya yang memiliki properti position: absolute atau position: fixed. Posisi elemen tersebut akan dihitung berdasarkan posisi elemen yang memiliki position: relative. Jika tidak ada elemen di atasnya dalam rantai hirarki yang memiliki position: relative, maka posisinya akan merujuk pada elemen <body>.

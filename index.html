@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link CDN Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Link Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Inconsolata:wght@300;400;500;600&family=Major+Mono+Display&family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>Membuat web coffee</title>
+</head>
+
+<body>
+  <section class="sec">
+    <header>
+      <a href="#"><img src="/assets/images/logo.png" alt="logo website" class="logo"></a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+
+    <div class="content">
+      <div class="tex-box">
+        <h2>That's What <br><span>I like</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci tenetur consectetur repellat at dolores incidunt voluptate praesentium modi ipsum.</p>
+        <a href="#">View All Product</a>
+      </div>
+
+      <div class="img-box">
+        <img src="/assets/images/coffe1.png" alt="image content coffee 1" class="kopiku">
+      </div>
+    </div>
+
+    <ul class="thumb">
+      <li><img src="/assets/images/coffee cup.png" alt="kopi latte"  onclick="imgSlider('/assets/images/coffee cup.png')" class="coffee"></li>
+      <li><img src="/assets/images/blue coffee.png" alt="kopi biru" onclick="imgSlider('/assets/images/blue coffee.png')" class="coffee"></li>
+      <li><img src="/assets/images/bubble tea.png" alt="bubble tea" onclick="imgSlider('/assets/images/bubble tea.png')" class="coffee"></li>
+      <li><img src="/assets/images/coffe1.png" alt="coffee pahit" onclick="imgSlider('/assets/images/coffe1.png')" class="coffee"></li>
+    </ul>
+
+    <ul class="socialMedia">
+      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+
+  </section>
+
+  <script src="/assets/js/index.js"></script>
+</body>
+</html>

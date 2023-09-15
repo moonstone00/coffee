@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sec {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #89838E;
+  transition: 0.5s;
+}
+
+.sec .logo {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 100px;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  display: inline-block;
+  color: #ffff;
+  margin: 40px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .tex-box {
+  position: relative;
+  width: 600px;
+}
+
+.content .tex-box h2 {
+  color: #ffff;
+  font-size: 4em;
+  line-height: 1.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.content .tex-box h2 span {
+  font-size: 2em;
+}
+
+.content .tex-box p {
+  color: #ffff;
+}
+
+.content .tex-box a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background-color: #ffff;
+  border-radius: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.content .img-box {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+
+.img-box img {
+  max-width: 350px;
+  height: auto;
+}
+
+.thumb {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+}
+
+.thumb .coffee {
+  width: 350px;
+  height: auto;
+}
+
+.thumb li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.thumb li:hover {
+  transform: translateY(-15px);
+}
+
+.thumb li img {
+  max-width: 40px;
+}
+
+.sec .socialMedia {
+  width: 15.5%;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  bottom: 100px;
+}
+
+.sec .socialMedia li { 
+  list-style: none;
+  margin: 0 10px;
+}
